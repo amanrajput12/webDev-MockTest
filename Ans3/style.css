@@ -1,0 +1,30 @@
+.loader {
+    width: 100px;
+    height: 20px;
+    background-color: #f2f2f2;
+    animation: skeleton-loader 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes skeleton-loader {
+    0% {
+      background-color: #f2f2f2;
+    }
+    50% {
+      background-color: #e0e0e0;
+    }
+    100% {
+      background-color: #f2f2f2;
+    }
+  }
+  
+  #postList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .post {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
